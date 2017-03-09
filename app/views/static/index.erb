@@ -1,2 +1,19 @@
 <h1>Hello World</h1>
 <p>See Me in views/static/index.html.erb</p>
+
+<form action="/create_url" method="POST">
+    Enter URL: 
+    <input type="text" name="long_url">
+    <input type="submit" value="Submit">
+ </form>
+
+
+<% if @disc != nil && @disc.errors[:long_url].any? == true %>
+	<%= @disc.errors.messages[:long_url][0] %>
+<% end %>
+
+<p></p>
+
+<% Url.all.each do |x| %>
+	<br><%= x.long_url %> ====> <a href="<%= x.long_url %>"> <%= x.short_url%> </a>
+<% end %>
