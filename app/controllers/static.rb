@@ -6,8 +6,8 @@ end
 
 get '/:short_url' do
 	answer = Url.find_by(short_url: params[:short_url])
-	answer.update(clickcount: answer.clickcount + 1)
-	redirect to answer.long_url
+	answer.update(clickcount: (answer.clickcount + 1))
+	redirect to (answer.long_url)
 end
 
 post '/create_url' do

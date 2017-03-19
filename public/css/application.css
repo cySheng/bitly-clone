@@ -1,58 +1,29 @@
 h1 {
-	padding-top: 20px;
-	padding-left: 300px;
-	color: white;
-	width: 100%;
-}
-
-html, body {
-	padding: 0;
-	margin: 0;
-}
-
-.header {
-	margin: 0;
-}
-
-.top {
-	background-color: blue;
+	padding-top: 13px;
 	color: black;
-	height: 50%;
 }
 
-.bottom {
-	text-align: center;
+h2 {
+	color: black;
 }
 
-table {
-	border-collapse: collapse;
-	width: 60%;
+.second {
+	margin-top: 80px;
 }
 
-form, h2 {
-	text-align: center;
+.third {
+	margin-top: 30px;
+	padding-bottom: 100px;
 }
 
-th {
-	background-color: orange;
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+
 }
 
-tr:nth-child(even) {background-color: #f2f2f2}
 
-
-table, th, td {
-	border: 1px solid grey;
-	text-align: left;
-	padding: 10px;
+.tophalf {
+	background-image: url("https://wallpaperscraft.com/image/city_cafe_chair_table_blur_bokeh_59087_1366x768.jpg");
+	background-size: cover;
 }
-
-label {
-    display: inline-block;
-    width: 5em;
-  }
-
-
-
-
-
-

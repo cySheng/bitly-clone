@@ -13,6 +13,7 @@ require 'byebug'
 require 'pg'
 require 'active_record'
 require 'logger'
+require 'bcrypt'
 
 	# sinatra
 require 'sinatra'
