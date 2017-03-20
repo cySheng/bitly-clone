@@ -6,10 +6,9 @@
 		});
 });*/
 
-
-console.log("hi");
-
-
 $(document).ready(function () {
-  console.log("hi");
+	$(".hidebutton").click(function() {
+		console.log($(this).parent().parent());
+		$(this).parent().parent().hide();
+	});
 });

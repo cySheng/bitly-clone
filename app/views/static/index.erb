@@ -28,7 +28,7 @@
 					<td class="text-center"><%= x.long_url[/www.+/] %></td>
 					<td class="text-center"><a href="/<%=x.short_url%>">http://localhost:9393/<%= x.short_url %></a></td>
 					<td class="text-center"><%= x.clickcount %></td>
-					<td class="text-center"><input type="submit" class="btn btn-default" value="Hide" id="<%= x.id %>"></td>
+					<td class="text-center"><input type="submit" class="btn btn-default hidebutton" value="Hide" id="<%= x.id %>"></td>
 				</tr>
 			<% end %>
 			</table>
